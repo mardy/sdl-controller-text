@@ -4,7 +4,7 @@ project (WiiControllrtTest VERSION 1.0)
 find_package(PkgConfig REQUIRED)
 pkg_check_modules(SDL REQUIRED IMPORTED_TARGET sdl SDL_ttf freetype2)
 
-set(PROG "WiiControllerText")
+set(PROG "WiiControllerTest")
 
 function(add_resource out_var)
     set(result)
